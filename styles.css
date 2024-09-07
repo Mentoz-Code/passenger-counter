@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url(station.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgb(205, 232, 255);
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: center;
+    padding: 3rem;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+.nowrap{
+    white-space: nowrap;
+}
+
+h1 {
+    font-size: 3rem;
+    text-decoration: underline 2px;
+    display: inline;
+    margin: 20px auto;
+}
+
+h2 {
+    font-size: 4rem;
+    margin: 20px auto;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+button {
+    border-radius: 15px;
+    border: none;
+    color: whitesmoke;
+    display: flex;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 2vh auto;
+    padding: 1.3rem;
+    width: 50vw;
+    justify-content: center;
+}
+
+#increment-btn {
+    background: darkred;
+
+}
+
+#increment-btn:hover {
+    cursor: pointer;
+}
+#increment-btn:active {
+    background-color: rgb(118, 2, 2);
+    transform: scale(98%);
+}
+
+#save-btn {
+    background: darkgreen;
+}
+
+#save-btn:hover {
+    cursor: pointer;
+}
+#save-btn:active {
+    background-color: rgb(0, 88, 0);
+    transform: scale(98%);
+}
+
+p {
+    margin-top: 5vh;
+}
+
+@media screen and (max-width: 576px) {
+    h1 {
+        font-size: 2rem;
+    }
+}
